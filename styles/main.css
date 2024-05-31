@@ -1,0 +1,85 @@
+header {
+    text-align: center;
+}
+.fishList {
+    flex-basis: 300px;
+    flex-grow: 1;
+    max-width: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.fishList:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+.fish__image {
+    max-width: 10rem;
+}
+.fish__name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333333;
+}
+.fish__species {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333333;
+}
+.fish__description {
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.5;
+}
+.locations {
+    flex-basis: 300px;
+    flex-grow: 1;
+    max-width: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.location__image {
+    max-width: 10rem;
+}
+.locations:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+.location__description {
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.5;
+}
+.location__name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333333;
+}
+#tipList {
+    float: right;
+    flex-basis: 300px;
+    flex-grow: 1;
+    max-width: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
